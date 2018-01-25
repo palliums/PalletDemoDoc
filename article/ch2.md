@@ -3,8 +3,8 @@
 本段将进行Pallet的Demo架构解说，本章节偏向较为技术方面的解说:
 
 ## 架构图:
-![](/pallet.png)
-![](/process.png)
+![](./img/pallet.png)
+![](./img/process.png)
 
 ### 执行说明
 #### 部属合约:

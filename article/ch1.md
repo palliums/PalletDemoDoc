@@ -21,4 +21,4 @@ Pallet 想要达成一个On-chain的智能合约平台，使虚拟货币使用�
 
 大致的内容是在说明Alice帮Bob工作，Alice希望他在完成一件事情的情况下Bob就需要付钱给她，然而在Bitcoin上发起短期且频繁的交易是昂贵且费时的，Micropayment Channel的案例是透过Multisignature Address去製作多签地址，让Bob先将一笔押金抵押至多签地址中，且製作一个锁定24小时的交易，这个交易的结果是将钱退还给Bob, 当Alice完成工作之后Bob会产生一个可以立即生效的交易给Alice， 每次完成工作就更新一个版本增加要给予Alice的金额，Alice必须在锁定时间结清工作要不然Bob将可以索回所有抵押进去的金额，从这个案例我们可以发现在Bitcoin在实现契约交易是非常複杂且不便利的，这也是Pallet想要解决的问题。
 
-![](./micchl.png)
+![](./img/micchl.png)
